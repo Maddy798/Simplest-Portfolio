@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maddy</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <a href="/" class="brand"><span>M</span>ad<span>d</span>y</a>
+      <ul>
+        <li onclick="location.href = '#home-container'" class="list-items1">
+          Home
+        </li>
+        <li onclick="location.href = '#about-container'" class="list-items2">
+          About
+        </li>
+        <li onclick="location.href = '#skills-container'" class="list-items3">
+          Skills
+        </li>
+      </ul>
+      <div class="icon" id="menuBtn">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="home-container" id="home-container">
+        <div class="text-container">
+          <h1 class="heading">
+            <span>I'</span>m <span>M</span>a<span>dd</span>y
+          </h1>
+          <p class="full-name"><span>H</span>ardik <span>T</span>aneja</p>
+          <p class="home-skill-heading">Full Stacked Web Developer.</p>
+        </div>
+      </div>
+      <div class="about-container" id="about-container">
+        <div class="about-me-para" id="about-me">
+          <h2 class="about-me-heading">About Me</h2>
+          <p class="about-me">
+            I am a 16 years old Full-Stacked Web Developer from Delhi, India. I
+            can Develop a android application using React Native as well. I have
+            spend time developing many projects using React.Js, firebase and
+            React Native. I have a good amount of knowledge and experience in
+            Game Development.
+          </p>
+        </div>
+        <div class="contact-information" id="contact-information">
+          <h1 class="contact-heading">Any Type Of Query & Discussion</h1>
+          <p class="mail">
+            <i class="fa-solid fa-envelope"></i> Hardiktaneja838@gmail.com
+          </p>
+          <p class="phone-number">
+            <i class="fa-solid fa-phone"></i> +91 7982503564
+          </p>
+        </div>
+      </div>
+      <div class="skills-container" id="skills-container">
+        <div class="image-container" id="image-container">
+          <img
+            src="/assets/websiteImage.png"
+            alt="websiteImage"
+            class="Website-image"
+          />
+          <img
+            src="/assets/mobileImage.png"
+            alt="mobileImage"
+            class="Mobile-image"
+          />
+        </div>
+        <div class="languages-container" id="languages-container">
+          <h1>Languages and Frameworks</h1>
+          <div class="column">
+            <div class="language">
+              <img src="/assets/HTML.png" alt="HTML" />
+              <p>HTML</p>
+            </div>
+            <div class="language middle">
+              <img src="/assets/css.webp" alt="css" />
+              <p>CSS</p>
+            </div>
+            <div class="language">
+              <img src="/assets/Javascript.png" alt="javascript" />
+              <p>Javascript</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="language">
+              <img src="/assets/ReactJS.png" alt="ReactJS" />
+              <p>React JS</p>
+            </div>
+            <div class="language middle">
+              <img src="/assets/ReactNative.png" alt="react-native" />
+              <p>React Native</p>
+            </div>
+            <div class="language">
+              <img src="/assets/Firebase.png" alt="firebase" />
+              <p>Firebase</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="language">
+              <img src="/assets/Python.png" alt="python" />
+              <p>Python</p>
+            </div>
+            <div class="language middle">
+              <img src="/assets/node.webp" alt="Nodejs" />
+              <p>Node JS</p>
+            </div>
+            <div class="language">
+              <img src="/assets/wordpress.png" alt="WordPress" />
+              <p>Wordpress</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="/app.js"></script>
+</html>
