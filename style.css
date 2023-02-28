@@ -110,10 +110,14 @@ li:hover {
   z-index: 100;
   cursor: pointer;
   transition: all 0.5s;
-  animation: fadein 3s ease;
 }
 
-.heading span {
+.heading .heading-span-white {
+  position: relative;
+  animation: slidein 2s ease;
+}
+
+.heading .heading-span-red {
   color: red;
   position: relative;
   animation: bounce 2s ease;
@@ -131,9 +135,11 @@ li:hover {
 @keyframes bounce {
   0% {
     bottom: 600px;
+    opacity: 0;
   }
   100% {
     bottom: 0px;
+    opacity: 1;
   }
 }
 
@@ -143,13 +149,17 @@ li:hover {
   font-weight: bold;
   font-size: 50px;
   margin: 20px 0;
-  animation: fadein 3s ease;
 }
 
-.full-name span {
+.full-name .name-span-red {
   color: red;
   animation: bounce 2s ease;
   position: relative;
+}
+
+.full-name .name-span-white {
+  position: relative;
+  animation: slidein 2s ease;
 }
 
 .home-skill-heading {
